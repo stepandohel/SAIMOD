@@ -9,7 +9,7 @@ namespace SAIMOD
         public double SummaryFine { get; set; }
         public bool Bool { get; set; } = false;
 
-        public void AddTrain(Train train)
+        public virtual void AddTrain(Train train)
         {
             if (MainQueue.Count < 3)
             {
